@@ -19,7 +19,6 @@ ipykernel = "^6.29.4"
 
 [tool.poetry.group.dev.dependencies]
 jupyter = "^1.0.0"
-jupyter-client = "^8.6.2"
 
 [tool.poetry.scripts]
 jupyterV8Kernel = "jupyterV8Kernel.__main__:main"

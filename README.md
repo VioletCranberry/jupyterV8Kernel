@@ -27,7 +27,7 @@ docker build -t jupyter-v8-kernel && docker run -p 8888:8888 -v $(pwd):/app jupy
 Open your web browser and navigate to http://localhost:8888. 
 You should see the Jupyter Notebook interface.
 
-	1.	In the Jupyter interface, open the example.ipynb file.
+	1.	In the Jupyter interface, open the examples/example.ipynb file.
 	2.	Select the “JavaScript (MiniRacer)” kernel from the kernel menu.
 	3.	Run the cells to execute JavaScript code.
 
