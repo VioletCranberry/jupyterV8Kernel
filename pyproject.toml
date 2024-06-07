@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "jupyterV8Kernel"
+version = "0.1.0"
+description = ""
+authors = ["VioletCranberry <zh6an0w.fedor@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "jupyterV8Kernel" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.base.dependencies]
+mini-racer = "^0.12.3"
+ipykernel = "^6.29.4"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+jupyter-client = "^8.6.2"
+
+[tool.poetry.scripts]
+jupyterV8Kernel = "jupyterV8Kernel.__main__:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

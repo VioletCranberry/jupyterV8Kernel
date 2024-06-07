@@ -1,0 +1,12 @@
+{
+  "argv": [
+    "python",
+    "-m",
+    "jupyterV8Kernel",
+    "-f",
+    "{connection_file}"
+  ],
+  "display_name": "JavaScript (MiniRacer)",
+  "language": "javascript",
+  "codemirror_mode": "javascript"
+}
